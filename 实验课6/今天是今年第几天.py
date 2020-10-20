@@ -32,4 +32,4 @@ if isryear(year):
 else:
     future = 365 - count(year, month, day)
 
-print("今年已经过去{}天，只剩{}天，你都做了什么？".format(past,future))
+print("今年已经过去{}天，只剩{}天，你都做了什么？".format(past, future))
