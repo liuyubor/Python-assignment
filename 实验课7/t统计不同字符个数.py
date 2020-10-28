@@ -11,4 +11,5 @@ for i in str:
         space += 1
     else:
         other += 1
-print("英文字符又{}个，中文字符有{}个，数字有{}个，空格有{}个，其他字符有{}个。".format(english,chinese,number,space,other))
+print("英文字符又{}个，中文字符有{}个，数字有{}个，空格有{}个，其他字符有{}个。".format(
+    english, chinese, number, space, other))
