@@ -1,0 +1,12 @@
+import datetime
+s = datetime.datetime(2001, 7, 2, 22, 33, 32, 5)
+print(s.strftime("%Y年%m月%d日%H时%M分%S秒"))
+print(s.strftime("%Y年%m月%d日 %I%p"))
+print(s.strftime("%Y-%m-%d %H:%M:%S"))
+print(s.strftime("%Y-%m-%d %H %I%p"))
+print(s.strftime("%B %d %Y %A %H:%M:%S"))
+print(s.strftime("%B %d %Y %A %I%p"))
+print(s.strftime("%B %d %Y %a %H:%M:%S"))
+print(s.strftime("%B %d %Y %a %I%p"))
+print(s.strftime("%Y-%m-%d %A"))
+print(s.strftime("%Y-%m-%d %a"))
